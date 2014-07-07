@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<body style="font-family:Arial">
-		<font size=7>Matrix Reloaded</font><br>
+		<font size=7>simplatrix</font><br>
 		<font size=2>algorithm and code by habiburrahman [https://github.com/remorac/simplatrix]</font><hr>
 		<form action="input_element.php" method="post">
 		What operation do you want?<br><br>
