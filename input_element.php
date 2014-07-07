@@ -15,7 +15,7 @@
 					} else {
 						$abaris=2;
 						$akolom=2;
-						$baris=0;
+						$bbaris=0;
 						$bkolom=0;
 						$judul="Determinant and Invers";
 					}
@@ -34,6 +34,7 @@
 							<tr>
 								<td>
 									<?php 
+										//input matriks A
 										echo "<br>Matrix A:";
 										for ($i=0;$i<$abaris;$i++) {
 											echo "<br>";
@@ -47,6 +48,7 @@
 								</td>
 								<td>
 									<?php 
+										//input matriks B
 										if ($_POST['itipe']=="dynamic") {
 											echo "<br>Matrix B:";
 											for ($i=0;$i<$bbaris;$i++) {
@@ -74,7 +76,7 @@
 					<?php
 				} else {
 					?>
-						<input type="submit" name="detinv" value="Determinan and Invers">
+						<input type="submit" name="detinv" value="Determinant and Invers">
 					<?php
 				}
 			?>
