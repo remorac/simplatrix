@@ -2,7 +2,7 @@
 <html>
 	<body style="font-family:Arial">
 		<font size=7>Matrix Reloaded</font><br>
-		<font size=2>algorithm and code by habiburrahman [remorac.14@gmail.com]</font><hr>
+		<font size=2>algorithm and code by habiburrahman [https://github.com/remorac/simple-matrix]</font><hr>
 		<form action="index.php" method="post">
 		RESULT<br><br>
 		<?php
