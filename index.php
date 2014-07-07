@@ -13,7 +13,7 @@
 			<input type="text" size=1 name="bbaris" placeholder="baris" style="text-align:right"> x 
 			<input type="text" size=1 name="bkolom" placeholder="kolom" style="text-align:right">
 			<br><br>
-		<input type="radio" name="itipe" value="static">determinan or invers (hanya untuk ordo 2x2)<br><br>
+		<input type="radio" name="itipe" value="static">determinan and invers (hanya untuk ordo 2x2)<br><br>
 		<input type="submit" name="mulai" value="OK, let's start">
 		</form>
 	</body>
