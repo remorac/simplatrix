@@ -2,7 +2,7 @@
 <html>
 	<body style="font-family:Arial">
 		<font size=7>Matrix Reloaded</font><br>
-		<font size=2>algorithm and code by habiburrahman [https://github.com/remorac/simple-matrix]</font><hr>
+		<font size=2>algorithm and code by habiburrahman [https://github.com/remorac/simplatrix]</font><hr>
 		<form action="input_element.php" method="post">
 		What operation do you want?<br><br>
 		<input type="radio" name="itipe" value="dynamic" checked>adding or multiply <br> 
