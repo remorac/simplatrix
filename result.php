@@ -6,12 +6,13 @@
 		<form action="index.php" method="post">
 		RESULT<br><br>
 		<?php
+			$abaris=$_POST['abaris'];
+			$akolom=$_POST['akolom'];
+			$bbaris=$_POST['bbaris'];
+			$bkolom=$_POST['bkolom'];
+			
 			//penjumlahan
 			if (isset($_POST['adding'])) {
-				$abaris=$_POST['abaris'];
-				$akolom=$_POST['akolom'];
-				$bbaris=$_POST['bbaris'];
-				$bkolom=$_POST['bkolom'];
 				echo "Adding";
 				if ($akolom!=$bkolom || $abaris!=$bbaris) {
 					echo "<br><h2>! Invalid Matrix !</h2>";
@@ -29,10 +30,6 @@
 			
 			//perkalian
 			if (isset($_POST['multiply'])) {
-				$abaris=$_POST['abaris'];
-				$akolom=$_POST['akolom'];
-				$bbaris=$_POST['bbaris'];
-				$bkolom=$_POST['bkolom'];
 				echo "Multiply";
 				if ($akolom!=$bbaris) {
 					echo "<br><h2>! Invalid Matrix !</h2>";
@@ -57,8 +54,6 @@
 				$det=($_POST['a00']*$_POST['a11'])-($_POST['a01']*$_POST['a10']);
 				echo "Determinan A: ".$det."<br><br>";
 				echo "Invers A:";
-				$abaris=$_POST['abaris'];
-				$akolom=$_POST['akolom'];
 				$element[0][0]=$_POST['a11'];
 				$element[0][1]=0-$_POST['a01'];
 				$element[1][0]=0-$_POST['a10'];
