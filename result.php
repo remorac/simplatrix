@@ -6,6 +6,7 @@
 		<form action="index.php" method="post">
 		RESULT<br><br>
 		<?php
+			//penjumlahan
 			if (isset($_POST['adding'])) {
 				$abaris=$_POST['abaris'];
 				$akolom=$_POST['akolom'];
@@ -26,6 +27,7 @@
 				}
 			}
 			
+			//perkalian
 			if (isset($_POST['multiply'])) {
 				$abaris=$_POST['abaris'];
 				$akolom=$_POST['akolom'];
@@ -50,6 +52,7 @@
 				}
 			}
 			
+			//determinan dan invers
 			if (isset($_POST['detinv'])) {
 				$det=($_POST['a00']*$_POST['a11'])-($_POST['a01']*$_POST['a10']);
 				echo "Determinan A: ".$det."<br><br>";
